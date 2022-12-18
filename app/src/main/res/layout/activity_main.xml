@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/heading1"
+        android:layout_width="325dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="648dp"
+        android:text="Personal Information"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHighlight="#0B0A0A"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.42"
+        tools:layout_editor_absoluteX="128dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="550dp"
+        android:layout_toStartOf="@+id/inputname"
+        android:drawableLeft="@drawable/person"
+        android:drawablePadding="8dp"
+        android:text="Name"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/dob"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginBottom="480dp"
+        android:drawableLeft="@drawable/dob"
+        android:drawablePadding="8dp"
+        android:text="Date of Birth"
+        android:textColor="#070606"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/inputdob"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="475dp"
+        android:layout_toEndOf="@+id/dob"
+        android:ems="10"
+        android:inputType="date"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/inputname"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="544dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="410dp"
+        android:drawableLeft="@drawable/gender"
+        android:drawablePadding="8dp"
+        android:text="Gender"
+        android:textColor="#090808"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginBottom="340dp"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="8dp"
+        android:text="Email"
+        android:textColor="#0B0909"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/inputgender"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="403dp"
+        android:layout_toEndOf="@+id/gender"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/inputemail"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="331dp"
+        android:layout_toEndOf="@+id/email"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/topage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="221dp"
+        android:background="@android:drawable/editbox_background"
+        android:backgroundTint="@color/black"
+        android:text="NEXT"
+        android:textColor="@color/white"
+        app:iconTint="#131212" />
+
+</RelativeLayout>

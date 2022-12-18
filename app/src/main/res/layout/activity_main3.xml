@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="671dp"
+        android:text="SkillSet"
+        android:textColor="#131212"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/skills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginBottom="554dp"
+        android:drawableLeft="@drawable/skills"
+        android:drawablePadding="8dp"
+        android:text="Skills"
+        android:textColor="#0B0A0A"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/certificates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginBottom="455dp"
+        android:drawableLeft="@drawable/certificates"
+        android:drawablePadding="8dp"
+        android:text="Certifications"
+        android:textColor="#0C0C0C"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/inputskills"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="544dp"
+        android:layout_toEndOf="@+id/skills"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/inputcert"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="450dp"
+        android:layout_toEndOf="@+id/certificates"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/topage4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="161dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="287dp"
+        android:background="@android:drawable/editbox_background"
+        android:backgroundTint="#0E0E0E"
+        android:text="NEXT"
+        android:textColor="#FBFBFB" />
+</RelativeLayout>

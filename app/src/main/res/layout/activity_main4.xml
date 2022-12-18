@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg16"
+    android:textAlignment="center"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:id="@+id/showskills"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="253dp"
+        android:layout_toEndOf="@+id/skills2"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/showcert"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="218dp"
+        android:layout_toEndOf="@+id/certificates2"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/showclg"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="424dp"
+        android:layout_toEndOf="@+id/college2"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/showqual"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="392dp"
+        android:layout_toEndOf="@+id/qualification2"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/showpercent"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="356dp"
+        android:layout_toEndOf="@+id/percentage2"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/showemail"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="515dp"
+        android:layout_toEndOf="@+id/email2"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/showdob"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="590dp"
+        android:layout_toEndOf="@+id/dob2"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/showname"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="623dp"
+        android:layout_toEndOf="@+id/name2"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/certificates2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="220dp"
+        android:drawableLeft="@drawable/certificates"
+        android:drawablePadding="8dp"
+        android:text="Certifications :"
+        android:textColor="#0C0C0C"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/skills2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginBottom="256dp"
+        android:drawableLeft="@drawable/skills"
+        android:drawablePadding="8dp"
+        android:text="Skills :"
+        android:textColor="#0B0A0A"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="258dp"
+        android:layout_marginBottom="298dp"
+        android:text="SkillSet"
+        android:textColor="#131212"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/percentage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginBottom="357dp"
+        android:drawableLeft="@drawable/percentage"
+        android:drawablePadding="8dp"
+        android:text="Percentage :"
+        android:textColor="#050505"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/qualification2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="392dp"
+        android:drawableLeft="@drawable/qual"
+        android:drawablePadding="8dp"
+        android:text="Qualification :"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/college2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="426dp"
+        android:drawableLeft="@drawable/college"
+        android:drawablePadding="8dp"
+        android:text="College Name :"
+        android:textColor="#070707"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/heading3"
+        android:layout_width="268dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginBottom="460dp"
+        android:text="Educational Details"
+        android:textAlignment="textStart"
+        android:textColor="#090808"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/email2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="519dp"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="8dp"
+        android:text="Email :"
+        android:textColor="#0B0909"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/gender2"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="553dp"
+        android:drawableLeft="@drawable/gender"
+        android:drawablePadding="8dp"
+        android:text="Gender :"
+        android:textColor="#090808"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/dob2"
+        android:layout_width="164dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="589dp"
+        android:drawableLeft="@drawable/dob"
+        android:drawablePadding="8dp"
+        android:text="Date of Birth : "
+        android:textColor="#070606"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="623dp"
+        android:layout_toStartOf="@+id/inputname"
+        android:drawableLeft="@drawable/person"
+        android:drawablePadding="8dp"
+        android:text="Name :"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="655dp"
+        android:text="Personal Information "
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHighlight="#0B0A0A"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.42"
+        tools:layout_editor_absoluteX="128dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="717dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:backgroundTint="#5C0C2F"
+        android:text="Overview"
+        android:textAlignment="center"
+        android:textColor="#F8EFEF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="136dp"
+        android:text="SUBMIT" />
+
+    <TextView
+        android:id="@+id/showgender"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="549dp"
+        android:layout_toEndOf="@+id/name2"
+        android:textSize="20sp" />
+</RelativeLayout>
